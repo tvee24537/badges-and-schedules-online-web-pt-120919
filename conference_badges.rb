@@ -10,5 +10,5 @@ def batch_badge_creator(name_list)
 end
 
 def assign_rooms(name_list)
-  name_list.each
+  name_list.each_with_index.map do |
 end  
